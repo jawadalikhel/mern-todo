@@ -19,16 +19,16 @@ const mongoose = require('mongoose');
 <p>connect graphql with mongoose and start the server</p>
 <p>
 
-mongoose.connect('mongodb://localhost/testtest0');
-const server = new GraphQLServer({typeDefs, resolvers});
-mongoose.connection.once('open', function(){
-  server.start(() =>{
-    console.log('Server is running on localhost:4000');
-  })
-})
-</p>
+mongoose.connect('mongodb://localhost/testtest0');<br/>
+const server = new GraphQLServer({typeDefs, resolvers});<br/>
+mongoose.connection.once('open', function(){<br/>
+  server.start(() =>{<br/>
+    console.log('Server is running on localhost:4000');<br/>
+  })<br/>
+})<br/>
+</p><br/>
 
 
 
-<h3>2nd: </h3>
-<h3>2nd: </h3>
+<h3>4th: </h3>
+<h3>5th: </h3>
